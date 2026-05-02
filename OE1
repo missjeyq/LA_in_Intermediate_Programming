@@ -1,0 +1,9 @@
+def star_pyramid(levels, count = 1):
+    print(" " * (levels - count), "* " * count)
+    if count < levels:
+        count += 1
+        star_pyramid(levels, count)
+    else:
+        print(f"Done pyramid with {levels} * base")
+
+star_pyramid(int(input("How many is the base star? ")))
