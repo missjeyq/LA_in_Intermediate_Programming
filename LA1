@@ -1,0 +1,8 @@
+def my_info():
+    print("Nmae: Jhaye")
+    print("Age: 19")
+    print("Hobby: Doing make up")
+    print()
+    
+my_info()
+my_info()
